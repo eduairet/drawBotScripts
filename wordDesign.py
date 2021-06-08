@@ -19,6 +19,6 @@ def wordDesign(word, myFont):
     text(tx, (width()/2, height()/2 + tx.fontDescender()))
     
 # Call the function
-wordDesign('And Repeat', 'Arial')
+wordDesign('Yout word', 'Arial')
 # Output image
-saveImage('~/Desktop/andrepeat.png')
+saveImage('~/Desktop/myword.png')
