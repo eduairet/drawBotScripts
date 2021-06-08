@@ -19,6 +19,6 @@ def wordDesign(word, myFont):
     text(tx, (width()/2, height()/2 + tx.fontDescender()))
     
 # Call the function
-wordDesign('Yout word', 'Arial')
+wordDesign('Your word', 'Arial')
 # Output image
 saveImage('~/Desktop/myword.png')
